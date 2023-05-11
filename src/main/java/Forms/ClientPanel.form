@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Forms.ClientPanel">
+  <grid id="27dc6" binding="clientPanel" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="51c60" class="javax.swing.JButton" binding="configureCarButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="128" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Configure Car"/>
+        </properties>
+      </component>
+      <component id="11643" class="javax.swing.JButton" binding="viewAvailableCarsButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="128" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="View available cars"/>
+        </properties>
+      </component>
+      <scrollpane id="ce04c" binding="orderdCarsList">
+        <constraints>
+          <grid row="0" column="1" row-span="5" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="6a00f" class="javax.swing.JList" binding="list1" default-binding="true">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="c5159" class="javax.swing.JButton" binding="warrantyClaimButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="128" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <hideActionText value="true"/>
+          <text value="Warranty claim"/>
+        </properties>
+      </component>
+      <component id="82aa3" class="javax.swing.JButton" binding="logOutButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="128" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Log out"/>
+        </properties>
+      </component>
+      <component id="d92e1" class="javax.swing.JButton" binding="refreshButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Refresh"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
